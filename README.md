@@ -1,9 +1,9 @@
 # Special libraries used for the project
 ## yfinance
 This is the library supported by yahoo finance, where one can download historical data of stocks.
-## from pykalman import KalmanFilter
+## pykalman
 pykalman is a library developed for implementing kalman filter algorithm, which is an algorithm that helps remove the noise from a wave (the stock price in my project).
-## numpy.fft import fft,fftfreq,ifft
+## numpy.fft
 numpy.fft is used for conducting fourier transform. This is used in extracting the first feature for my classification problem. 
 ## sklearn
 I use sklearn for pre-processing and conduct set split for convenience. 
