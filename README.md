@@ -1,8 +1,8 @@
 # Special libraries used for the project
 ## yfinance
-This is the library supported by yahoo finance, where one could down load historical data of stocks.
+This is the library supported by yahoo finance, where one can download historical data of stocks.
 ## from pykalman import KalmanFilter
-pykalman is a library developed for implementing kalman filter algorithm, which removes the noise from a wave (which represents stock price in my project).
+pykalman is a library developed for implementing kalman filter algorithm, which is an algorithm that helps remove the noise from a wave (the stock price in my project).
 ## numpy.fft import fft,fftfreq,ifft
 numpy.fft is used for conducting fourier transform. This is used in extracting the first feature for my classification problem. 
 ## sklearn
@@ -10,7 +10,7 @@ I use sklearn for pre-processing and conduct set split for convenience.
 ## torch
 This is the library required for building the neural network in my project. 
 ## statsmodels.api
-The library I use to build the logistic regression in the model part and linear regression model in the back-testing part.
+This is the library I use to build the logistic regression in the model part and linear regression model in the back-testing part.
 
 # Data resource
 I retrieved all historical price using yfinance api mentioned above
