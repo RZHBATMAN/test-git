@@ -13,5 +13,5 @@ This is the library required for building the neural network in my project.
 This is the library I use to build the logistic regression in the model part and linear regression model in the back-testing part.
 
 # Data resource
-I retrieved all historical price using yfinance api mentioned above  
+I retrieved all historical prices of individual stocks using yfinance api mentioned above  
 Nasdaq Composite Index price is retrieved from https://finance.yahoo.com/quote/%5ENDX/history?period1=1527724800&period2=1590883200&interval=1d&filter=history&frequency=1d
